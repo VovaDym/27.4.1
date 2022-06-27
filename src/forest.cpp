@@ -7,7 +7,7 @@ int main()
     std::srand(std::time(nullptr));
     
     int numberTree = 5;
-    class Branch** village = new Branch * [numberTree];
+    Branch** village = new Branch * [numberTree];
 
     for (int i = 0; i < numberTree; ++i)
     {
